@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<solicitud_clasificacion>
+    <diccionario>
+        <sentimientos_positivos>
+            <palabra>bueno</palabra>
+            <palabra>excelente</palabra>
+            <palabra>cool</palabra>
+            <palabra>satisfecho</palabra>
+            <!-- ...otros positivos -->
+        </sentimientos_positivos>
+        <sentimientos_negativos>
+            <palabra>malo</palabra>
+            <palabra>pésimo</palabra>
+            <palabra>triste</palabra>
+            <palabra>molesto</palabra>
+            <palabra>decepcionado</palabra>
+            <palabra>enojo</palabra>
+            <!-- ...otros negativos -->
+        </sentimientos_negativos>
+        <empresas_analizar>
+            <empresa>
+                <nombre>UPANA</nombre>
+                <servicio nombre="inscripción">
+                    <alias>inscribí</alias>
+                    <alias>inscrito</alias>
+                    <alias>inscripción</alias>
+                </servicio>
+                <servicio nombre="asignación">
+                    <alias>asignado</alias>
+                    <alias>asignación</alias>
+                </servicio>
+                <servicio nombre="graduación"/>
+            </empresa>
+            <!-- ...otras empresas si las hubiera -->
+        </empresas_analizar>
+    </diccionario>
+    <lista_mensajes>
+        <mensaje>
+            Lugar y fecha: Guatemala, 01/04/2022 15:01 Usuario: map0001@upana.edu.gt Red social: X 
+            El servicio en la UPANA para inscripción fue muy bueno y me siento muy satisfecho.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 01/04/2022 15:20 Usuario: map0002@upana.edu.gt Red social: Facebook 
+            Hoy me inscriben la upana, no encontré parqueo e inicié molesto mi gestión, luego tuve que hacer cola 
+            y me indicaron que era la cola incorrecta, esto me enojo mucho y mejor me fui.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 01/04/2022 15:43 Usuario: map0003@upana.edu.gt Red social: WhatsApp 
+            Ya estoy inscrito en la UPANA, el proceso fue muy bueno pero al salir mi carro tenía pinchadas las llantas, 
+            esto me preocupó y me fui decepcionado.
+        </mensaje>
+    </lista_mensajes>
+</solicitud_clasificacion>

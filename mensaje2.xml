@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<solicitud_clasificacion>
+    <diccionario>
+        <sentimientos_positivos>
+            <palabra>bueno</palabra>
+            <palabra>excelente</palabra>
+            <palabra>rápido</palabra>
+            <palabra>feliz</palabra>
+        </sentimientos_positivos>
+        <sentimientos_negativos>
+            <palabra>lento</palabra>
+            <palabra>pésimo</palabra>
+            <palabra>confuso</palabra>
+            <palabra>frustrado</palabra>
+        </sentimientos_negativos>
+        <empresas_analizar>
+            <empresa>
+                <nombre>BANTRAB</nombre>
+                <servicio nombre="apertura de cuenta">
+                    <alias>abrí</alias>
+                    <alias>apertura</alias>
+                    <alias>cuenta</alias>
+                </servicio>
+            </empresa>
+            <empresa>
+                <nombre>CLARO</nombre>
+                <servicio nombre="recarga">
+                    <alias>recarga</alias>
+                    <alias>saldo</alias>
+                </servicio>
+                <servicio nombre="internet">
+                    <alias>conexión</alias>
+                    <alias>wifi</alias>
+                    <alias>datos</alias>
+                </servicio>
+            </empresa>
+        </empresas_analizar>
+    </diccionario>
+    <lista_mensajes>
+        <mensaje>
+            Lugar y fecha: Guatemala, 04/04/2022 08:00 Usuario: cliente01@bantrab.gt Red social: Facebook 
+            Hoy abrí una cuenta en BANTRAB y el proceso fue excelente, muy rápido y eficiente.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 04/04/2022 08:30 Usuario: cliente02@claro.com.gt Red social: WhatsApp 
+            Intenté hacer una recarga con CLARO, pero el sistema fue lento y muy confuso.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 04/04/2022 09:00 Usuario: cliente03@claro.com.gt Red social: X 
+            La conexión de internet CLARO está pésima hoy, me siento frustrado con el servicio.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 04/04/2022 09:30 Usuario: cliente04@bantrab.gt Red social: Instagram 
+            Hice la apertura de cuenta en BANTRAB y todo salió muy bien, estoy feliz con el trato recibido.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 04/04/2022 10:00 Usuario: cliente05@claro.com.gt Red social: X 
+            Fui a CLARO a consultar sobre mi plan. Me explicaron todo, pero no hice ningún cambio.
+        </mensaje>
+    </lista_mensajes>
+</solicitud_clasificacion>

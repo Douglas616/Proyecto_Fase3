@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<solicitud_clasificacion>
+    <diccionario>
+        <sentimientos_positivos>
+            <palabra>bueno</palabra>
+            <palabra>excelente</palabra>
+            <palabra>cool</palabra>
+            <palabra>satisfecho</palabra>
+            <palabra>feliz</palabra>
+            <palabra>contento</palabra>
+            <palabra>agradable</palabra>
+            <palabra>rápido</palabra>
+        </sentimientos_positivos>
+        <sentimientos_negativos>
+            <palabra>malo</palabra>
+            <palabra>pésimo</palabra>
+            <palabra>triste</palabra>
+            <palabra>molesto</palabra>
+            <palabra>decepcionado</palabra>
+            <palabra>enojo</palabra>
+            <palabra>lento</palabra>
+            <palabra>frustrado</palabra>
+            <palabra>confuso</palabra>
+        </sentimientos_negativos>
+        <empresas_analizar>
+            <empresa>
+                <nombre>UPANA</nombre>
+                <servicio nombre="inscripción">
+                    <alias>inscribí</alias>
+                    <alias>inscrito</alias>
+                    <alias>inscripción</alias>
+                </servicio>
+                <servicio nombre="asignación">
+                    <alias>asignado</alias>
+                    <alias>asignación</alias>
+                </servicio>
+                <servicio nombre="graduación"/>
+            </empresa>
+        </empresas_analizar>
+    </diccionario>
+    <lista_mensajes>
+        <mensaje>
+            Lugar y fecha: Guatemala, 03/04/2022 08:45 Usuario: estu001@upana.edu.gt Red social: X 
+            Me inscribí en la UPANA sin problema, el sistema fue muy rápido y el personal fue amable. ¡Feliz!
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 03/04/2022 09:10 Usuario: estu002@upana.edu.gt Red social: Facebook 
+            Me siento frustrado por la inscripción, el sistema fue muy lento y confuso.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 03/04/2022 09:30 Usuario: estu003@upana.edu.gt Red social: WhatsApp 
+            Hoy me asignaron mis cursos en la UPANA. Todo salió excelente, me siento muy contento.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 03/04/2022 10:00 Usuario: estu004@upana.edu.gt Red social: Instagram 
+            La experiencia de graduación fue agradable, aunque me sentí algo triste por dejar la universidad.
+        </mensaje>
+        <mensaje>
+            Lugar y fecha: Guatemala, 03/04/2022 10:30 Usuario: estu005@upana.edu.gt Red social: X 
+            Intenté inscribirme en UPANA pero me atendieron mal. Salí molesto y decepcionado.
+        </mensaje>
+    </lista_mensajes>
+</solicitud_clasificacion>
