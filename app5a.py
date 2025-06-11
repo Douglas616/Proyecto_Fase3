@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 app = Flask(__name__)
-DB_PATH = "C:/Users/iront/OneDrive/Documentos/Python/proyecto3/mensajes.db"
+DB_PATH = "C:/Users/iront/OneDrive/Documentos/Python/Proyecto_Fase3/mensajes.db"
 
 # Analisis de sentimiento
 def clasificarr_sentimientos(texto, positivos, negativos):
@@ -69,7 +69,7 @@ def analizar():
                 fecha_raw = datos.split(",")[-1].strip()
                 fecha = datetime.strptime(fecha_raw, "%d/%m/%Y %H:%M")
             except Exception:
-                continue  # Ignorar mensajes mal formateados
+                continue  
 
             empresa_detectada = "desconocida"
             servicio_detectado = "desconocido"
