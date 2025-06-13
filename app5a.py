@@ -99,7 +99,7 @@ def analizar():
 
         conn.commit()
         conn.close()
-        return "Archivo XML procesado correctamente y mensajes guardados."
+        return "Archivo XML procesado correctamente y mensajes almacenado."
 
     except ET.ParseError as e:
         return f"Error al parsear el XML: {str(e)}", 400
